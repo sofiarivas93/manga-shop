@@ -34,7 +34,8 @@ const DUMMY_PRODUCTS = [
         image: 'https://m.media-amazon.com/images/I/41WcpST5nHL._SY346_.jpg'
     }
 ]
-//const DUMMY_PRODUCTS_BLACK = []
+/* Test how look the app when no exist products */
+// const DUMMY_PRODUCTS_BLACK = []
 
 const App = () => {
     const [products, setProducts] = useState(DUMMY_PRODUCTS);
