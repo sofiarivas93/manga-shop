@@ -1,5 +1,6 @@
 import React from "react";
 import logoMs from "../../assets/images/logoMs.png";
+import classes from "./Banner.module.css"
 
 
 const Banner = () => {
@@ -17,7 +18,7 @@ const Banner = () => {
                             time to discover!
                         </p>
                     </div>
-                    <div  className="col-lg-4"  style={{marginTop:'20px', marginBottom:'20px'}}>
+                    <div  className={`col-lg-4 ${classes.display}`} style={{marginTop:'20px', marginBottom:'20px'}}>
                         <img src={logoMs} alt="Manga Shop Logo" className="img-fluid" width="200" height="200"></img>
                     </div>
                 </div>
