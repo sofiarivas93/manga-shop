@@ -13,11 +13,11 @@ const DUMMY_PRODUCT =
 
 const renderProductItem = () => {
     render(
-            <ProductItem key={DUMMY_PRODUCT.id}
-                title={DUMMY_PRODUCT.title}
-                description={DUMMY_PRODUCT.description}
-                price={DUMMY_PRODUCT.price}
-                image={DUMMY_PRODUCT.image}></ProductItem>
+        <ProductItem key={DUMMY_PRODUCT.id}
+                     title={DUMMY_PRODUCT.title}
+                     description={DUMMY_PRODUCT.description}
+                     price={DUMMY_PRODUCT.price}
+                     image={DUMMY_PRODUCT.image}></ProductItem>
     )
 }
 describe("ProductItem", () => {

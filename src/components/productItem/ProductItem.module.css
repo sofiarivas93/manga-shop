@@ -42,40 +42,19 @@
     background-color: #444444;
 }
 
-.singleProduct .options ul {
+.singleProduct .options button {
     position: absolute;
-    bottom: -41px;
-    left: 20px;
+    bottom: 20px;
+    right: 20px;
     margin: 0;
-    padding: 0;
+    padding: 0.375rem 0.75rem;
     list-style: none;
-    opacity: 0;
-    transition: bottom 0.5s, opacity 0.5s;
-}
-
-.singleProduct:hover .options ul {
-    bottom: 30px;
-    opacity: 1;
-}
-
-.singleProduct .options ul li {
-    display: inline-block;
-    margin-right: 4px;
-}
-
-.singleProduct .options ul li a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
     background-color: #ffffff;
     color: #444444;
-    text-align: center;
-    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
-    transition: color 0.2s;
+    border-radius: 0.375rem;
 }
 
-.singleProduct .options ul li a:hover {
+.singleProduct .options button:hover {
     color: #fe302f;
 }
 

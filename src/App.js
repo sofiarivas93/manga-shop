@@ -38,12 +38,14 @@ const DUMMY_PRODUCTS = [
 // const DUMMY_PRODUCTS_BLACK = []
 
 const App = () => {
-    const [products, setProducts] = useState(DUMMY_PRODUCTS);
+    const products = DUMMY_PRODUCTS;
+    const [cartList, setCartList]=useState([]);
+    console.log("Lista del carrito ", cartList);
     return (
         <div className="App">
-            <Header title={"Manga Shop"}></Header>
+            <Header title={"Manga Shop"} listCart={cartList} ></Header>
             <Banner></Banner>
-            <ProductList productList={products}></ProductList>
+            <ProductList productList={products} cartList={cartList} setCartList={setCartList}></ProductList>
         </div>
     );
 }

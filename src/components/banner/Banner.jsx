@@ -18,7 +18,7 @@ const Banner = () => {
                             time to discover!
                         </p>
                     </div>
-                    <div  className={`col-lg-4 ${classes.display}`} style={{marginTop:'20px', marginBottom:'20px'}}>
+                    <div className={`col-lg-4 ${classes.display}`} style={{marginTop: '20px', marginBottom: '20px'}}>
                         <img src={logoMs} alt="Manga Shop Logo" className="img-fluid" width="200" height="200"></img>
                     </div>
                 </div>
